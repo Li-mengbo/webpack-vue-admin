@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["env", { // 指定编译环境
+      // 是否将es6模块转换成其他类型
+      "modules": false,
+      // 编译到浏览器
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      }
+    }]
+  ]
+}
